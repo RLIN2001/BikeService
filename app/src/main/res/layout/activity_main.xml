@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="151dp"
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/sfondo"
+        app:layout_constraintVertical_bias="0.027"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        android:textColor="#0d6e6a"
+        android:text="Benvenuto"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textColor="#0d6e6a"
+        android:text="Accedi o crea un nuovo account"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/button"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:text="Login"
+        android:background="@drawable/sfondo_b"
+        android:layout_gravity="center"
+        android:onClick="login"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button2"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:text="Registrazione"
+        android:background="@drawable/sfondo_b"
+        android:layout_gravity="center"
+        android:onClick="registrazione"/>
+
+</LinearLayout>
